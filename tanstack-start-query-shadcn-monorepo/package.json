@@ -1,5 +1,5 @@
 {
-  "name": "tanstack-start-shadcn-ui-monorepo",
+  "name": "tanstack-start-query-shadcn-ui-monorepo",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -22,5 +22,9 @@
   "workspaces": [
     "apps/*",
     "packages/*"
-  ]
+  ],
+  "dependencies": {
+    "@tanstack/react-query": "^5.67.2",
+    "@tanstack/react-router-with-query": "^1.114.4"
+  }
 }
